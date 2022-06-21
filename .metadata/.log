@@ -1,0 +1,18 @@
+!SESSION 2022-06-21 20:04:15.003 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Professional\Desktop\!!!!!!!\IT\STM32\STM32-Course
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-06-21 20:04:18.417
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-06-21 20:04:18.463
+!MESSAGE Log4j initialized with config file C:\Users\Professional\Desktop\!!!!!!!\IT\STM32\STM32-Course\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-06-21 20:04:19.934
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-21 20:05:21.614
+!MESSAGE Indexed 'SKG_1st' (22 sources, 82 headers) in 2.06 sec: 4,741 declarations; 22,720 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0073%)
