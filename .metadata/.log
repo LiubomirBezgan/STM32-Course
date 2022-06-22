@@ -16,3 +16,24 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Profess
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-06-21 20:05:21.614
 !MESSAGE Indexed 'SKG_1st' (22 sources, 82 headers) in 2.06 sec: 4,741 declarations; 22,720 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0073%)
+!SESSION 2022-06-22 20:57:05.136 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-06-22 20:57:16.732
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-06-22 20:57:16.803
+!MESSAGE Log4j initialized with config file C:\Users\Professional\Desktop\!!!!!!!\IT\STM32\STM32-Course\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-06-22 20:57:22.538
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-06-22 20:59:46.707
+!MESSAGE Indexed 'SKG_2_GPIO' (22 sources, 82 headers) in 2.3 sec: 4,741 declarations; 22,720 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0073%)
+
+!ENTRY org.eclipse.core.resources 4 566 2022-06-22 21:30:32.954
+!MESSAGE Workspace was not properly initialized or has already shutdown.
