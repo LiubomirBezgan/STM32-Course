@@ -1,0 +1,10 @@
+19:14:30 **** Incremental Build of configuration Debug for project SKG_4_Interrupts ****
+make -j6 all 
+arm-none-eabi-size   SKG_4_Interrupts.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7908	     20	   1636	   9564	   255c	SKG_4_Interrupts.elf
+Finished building: default.size.stdout
+ 
+
+19:14:30 Build Finished. 0 errors, 0 warnings. (took 185ms)
+
