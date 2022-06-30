@@ -1,0 +1,10 @@
+19:10:57 **** Incremental Build of configuration Debug for project SKG_5_UART ****
+make -j6 all 
+arm-none-eabi-size   SKG_5_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13440	    120	   1688	  15248	   3b90	SKG_5_UART.elf
+Finished building: default.size.stdout
+ 
+
+19:10:57 Build Finished. 0 errors, 0 warnings. (took 234ms)
+
