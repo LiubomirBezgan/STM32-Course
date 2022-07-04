@@ -1,0 +1,10 @@
+21:31:53 **** Incremental Build of configuration Debug for project SKG_6_Clock ****
+make -j6 all 
+arm-none-eabi-size   SKG_6_Clock.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10432	     20	   1780	  12232	   2fc8	SKG_6_Clock.elf
+Finished building: default.size.stdout
+ 
+
+21:31:54 Build Finished. 0 errors, 0 warnings. (took 239ms)
+
