@@ -1,0 +1,9 @@
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:58:6:MX_MEMS_Init	8	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:80:6:MX_MEMS_Process	8	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:97:6:MX_IKS02A1_DataLogTerminal_Init	48	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:147:6:BSP_PB_Callback	16	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:156:6:MX_IKS02A1_DataLogTerminal_Process	16	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:203:13:floatToInt	32	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:225:13:Accelero_Sensor_Handler	88	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:289:13:Gyro_Sensor_Handler	88	static
+C:/Users/Professional/Desktop/!!!!!!!/IT/STM32/STM32-Course/SKG_IKS02A1_DataLogTerminal/Src/app_mems.c:353:13:Magneto_Sensor_Handler	88	static

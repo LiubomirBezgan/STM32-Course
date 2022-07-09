@@ -1,0 +1,10 @@
+16:51:18 **** Incremental Build of configuration Debug for project SKG_IKS02A1_DataLogTerminal ****
+make -j6 all 
+arm-none-eabi-size   SKG_IKS02A1_DataLogTerminal.elf 
+   text	   data	    bss	    dec	    hex	filename
+  46612	    352	   2312	  49276	   c07c	SKG_IKS02A1_DataLogTerminal.elf
+Finished building: default.size.stdout
+ 
+
+16:51:18 Build Finished. 0 errors, 0 warnings. (took 280ms)
+

@@ -1,4 +1,4 @@
-21:31:53 **** Incremental Build of configuration Debug for project SKG_6_Clock ****
+18:20:35 **** Build of configuration Debug for project SKG_6_Clock ****
 make -j6 all 
 arm-none-eabi-size   SKG_6_Clock.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   SKG_6_Clock.elf
 Finished building: default.size.stdout
  
 
-21:31:54 Build Finished. 0 errors, 0 warnings. (took 239ms)
+18:20:35 Build Finished. 0 errors, 0 warnings. (took 234ms)
 
