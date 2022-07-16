@@ -1,0 +1,10 @@
+16:26:27 **** Incremental Build of configuration Debug for project SKG_1ST_ML_DEPLOYMENT ****
+make -j6 all 
+arm-none-eabi-size   SKG_1ST_ML_DEPLOYMENT.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 146996	    856	   2872	 150724	  24cc4	SKG_1ST_ML_DEPLOYMENT.elf
+Finished building: default.size.stdout
+ 
+
+16:26:30 Build Finished. 0 errors, 0 warnings. (took 3s.147ms)
+
