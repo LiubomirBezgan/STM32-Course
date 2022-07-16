@@ -158,16 +158,16 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 		if (znak == 'e')
 		{
 			HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
-			dl_kom = sprintf(komunikat, "DIODA_ON");
+			dl_kom = sprintf(komunikat, "\rDIODA_ON\n");
 		}
 		else if (znak == 'd')
 		{
 			HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
-			dl_kom = sprintf(komunikat, "DIODA_OFF");
+			dl_kom = sprintf(komunikat, "\rDIODA_OFF\n");
 		}
 		else
 		{
-			dl_kom = sprintf(komunikat, "ZLY ZNAK");
+			dl_kom = sprintf(komunikat, "\rZLY ZNAK\n");
 		}
 		HAL_UART_Transmit_IT(&huart2, komunikat, dl_kom);
 		HAL_UART_Receive_IT(&huart2, &znak, 1);

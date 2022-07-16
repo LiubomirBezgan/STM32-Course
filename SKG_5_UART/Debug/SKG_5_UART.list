@@ -745,7 +745,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
  8000778:	2120      	movs	r1, #32
  800077a:	481d      	ldr	r0, [pc, #116]	; (80007f0 <HAL_UART_RxCpltCallback+0x94>)
  800077c:	f000 fd2e 	bl	80011dc <HAL_GPIO_WritePin>
-			dl_kom = sprintf(komunikat, "DIODA_ON");
+			dl_kom = sprintf(komunikat, "\rDIODA_ON\n");
  8000780:	491c      	ldr	r1, [pc, #112]	; (80007f4 <HAL_UART_RxCpltCallback+0x98>)
  8000782:	481d      	ldr	r0, [pc, #116]	; (80007f8 <HAL_UART_RxCpltCallback+0x9c>)
  8000784:	f002 f9ca 	bl	8002b1c <siprintf>
@@ -766,7 +766,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
  800079c:	2120      	movs	r1, #32
  800079e:	4814      	ldr	r0, [pc, #80]	; (80007f0 <HAL_UART_RxCpltCallback+0x94>)
  80007a0:	f000 fd1c 	bl	80011dc <HAL_GPIO_WritePin>
-			dl_kom = sprintf(komunikat, "DIODA_OFF");
+			dl_kom = sprintf(komunikat, "\rDIODA_OFF\n");
  80007a4:	4916      	ldr	r1, [pc, #88]	; (8000800 <HAL_UART_RxCpltCallback+0xa4>)
  80007a6:	4814      	ldr	r0, [pc, #80]	; (80007f8 <HAL_UART_RxCpltCallback+0x9c>)
  80007a8:	f002 f9b8 	bl	8002b1c <siprintf>
@@ -778,7 +778,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 		}
 		else
 		{
-			dl_kom = sprintf(komunikat, "ZLY ZNAK");
+			dl_kom = sprintf(komunikat, "\rZLY ZNAK\n");
  80007b6:	4913      	ldr	r1, [pc, #76]	; (8000804 <HAL_UART_RxCpltCallback+0xa8>)
  80007b8:	480f      	ldr	r0, [pc, #60]	; (80007f8 <HAL_UART_RxCpltCallback+0x9c>)
  80007ba:	f002 f9af 	bl	8002b1c <siprintf>
