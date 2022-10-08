@@ -1,0 +1,10 @@
+21:23:30 **** Incremental Build of configuration Debug for project SKG_7_I2C_TMP100 ****
+make -j6 all 
+arm-none-eabi-size   SKG_7_I2C_TMP100.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16964	    120	   1744	  18828	   498c	SKG_7_I2C_TMP100.elf
+Finished building: default.size.stdout
+ 
+
+21:23:30 Build Finished. 0 errors, 0 warnings. (took 227ms)
+
